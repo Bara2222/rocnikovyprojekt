@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Počítačové tiskárny</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      main{background-color: black;}
+      footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: -0.5cm;
+    }
+    </style>
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark p-3">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand">Tiskárny</a>
+            <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link active"
+                    aria-current="page">Úvod</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/h/index.html" class="nav-link">Typy tiskáren</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/t/index.html" class="nav-link">Test</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid p-5 bg-danger text-white text-center">
+        <h1>Počítačové tiskárny</h1>
+        <p><b>-Počítačová tiskárna je periferní výstupní zařízení, které slouží k přenosu dat uložených v elektronické podobě na papír nebo jiné médium například fotopapír, kompaktní disk ....</b></p>
+      </div>
+
+      <section id="novinky">
+        <div
+          id="carouselId"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+            ></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="img/laser.jpg"
+                class="w-100 d-block"
+                alt="First slide"
+              />
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h3>Laserová tiskárny</h3>
+              </div>
+            </div> 
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="img/multi.jpg"
+                class="w-100 d-block"
+                alt="Second slide"
+              />
+              <div class="carousel-caption d-none d-md-block text-dark ">
+                <h3>Multifunkční tiskárny</h3>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="img/tisk.jpg"
+                class="w-100 d-block"
+                alt="Third slide"
+              />
+              <div class="carousel-caption d-none d-md-block text-dark ">
+                <h3>Jehličková tiskárny</h3>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+
+      <div class="container p-2 text-left">
+        <div class="card text-bg-dark">
+            <div class="card-body">
+                Tiskárnu připojujeme k počítači, ale může fungovat i samostatně (přímý tisk přes USB nebo Bluetooth, síťová tiskárna apod.) nebo být součástí multifunkčních zařízení (pokladna v obchodě, lékařské přístroje apod.).
+
+                Některé spotřebitelské a komerční tiskárny jsou přizpůsobeny rychlému a snadnému tisku (téměř bez nutnosti nastavení). Jsou také přizpůsobeny tomu, aby při tisku nevytvářely zbytečný hluk.
+
+                Tiskárny jsou obecně pomalá zařízení, 30 stran za minutu je považováno za rychlé a většina spotřebních tiskáren pracuje mnohem pomaleji. Náklady na stránku jsou stále poměrně vysoké, je to však kompenzováno dostupností a pohodlím, jenž tyto tiskárny poskytují.
+
+                První počítačovou tiskárnu vynalezl Charles Babbage v 19. století.
+
+                V posledních letech se začal objevovat pojem virtuální tiskárna. Je to software, jehož uživatelské rozhraní a API se podobá ovladači tiskárny, ale není fyzicky spojena s tiskárnou.
+
+            </div>
+        </div>
+    </div>
+      <div class="container text-white ">
+        <div class="row">
+          <div class="col ">
+            <h2>Terminologie</h2>
+            Pojmy jež výrobci a prodejci používají nejsou častokrát nijak normalizované, proto uvádějí hodnoty dosažené při podmínkách, které jsou pro ně vyhovující i přesto, že nemusí odpovídat typickému použití. Některé používané pojmy:
+            <p><b>Dot per inch</b>
+                Počet bodů na palec (dpi)- určuje rozlišovací schopnost tisku, tiskárny s vyšší hodnotou dpi dokážou tisknout jemnější detaily. Typické hodnoty jsou 300 až 1200 dpi u běžných tiskáren na kancelářské aplikace, 2400 až 4800 dpi u tiskáren určených na tisk grafiky či fotografií.</p>
+            <p><b>Pages per minute</b>
+                Počet stran za minutu (ppm) - určuje rychlost tisku. Ta může být rozdílná při tisku textu a grafiky, může též záviset od části plochy papíru či zadané kvality tisku (krytí). Někdy se udává jen „čistý čas“ vytisknutí stránky, při čem však přenos údajů, nebo výpočet stránky ze složitějšího přenosového formátu může trvat u některých druhů tisků výrazně delší dobu než samotný tisk</p>
+            <p><b>Cost per page</b>
+                Náklady na jednu stranu - obvykle se udává jen přibližná cena barvy (inkoustu, toneru) použité při tisku („přiměřeně pokryté“) strany. Není zahrnutá cena papíru, náklady na údržbu a mnohokrát ani příslušný podíl ceny tiskárny (předpokládá se její nekonečná životnost).
+                </p>
+            <p><b>Energy Star</b>
+                Tiskárna je energeticky úsporná (o zhruba 20% až 30 %) a je označena štítkem Energy Star.</p>
+            <p><b>Dura Brite Ultra Ink</b>
+                Tiskárny mají vysoce kvalitní inkoust který zachovává kvalitu barev na několik desítek let. Barvy jsou vysoce kontrastní a kvalitní.</p>
+            <p><b>Picture Bridge</b>
+                Tato funkce umožňuje tisknout obrázky a dokumenty přímo z digitálního zařízení, který má označení Picture Bridge.</p>
+          </div>
+        </div>
+        <div>
+        <div class="col-sm-5 ">
+            <h2>Příslušenství</h2>
+            <b>Kazety</b>
+            <p>Důsledkem současné koncepce počítačového tisku jsou prázdné tiskové kazety. Jde o (většinou) jednorázové tiskové zásobníky, které se podle typu tiskáren dělí na tonerové a inkoustové kazety. Kazety, které byly poprvé vypsané, se označují jako panenské (z anglického virgin cartridge). Prázdné kazety lze opakovaně plnit tiskovým mediem (inkoustem nebo tonerem), tento proces se nazývá renovace. Výrobci ale opatřují tiskové kazety systémy zábran proti renovaci, příkladem je čipování kazet.</p>
+            <p>Absence 100% zpětného odběru panenských kazet vede ke vzniku specifického druhu odpadu, který bývá skládkován. Některé instituce se zabývají jeho znovuužitím a renovací. K výrobě nové tonerové kazety je potřeba zhruba 4 litry surové ropy. Renovací kazet, která využívá prázdné tiskové kazety, dochází k významným úsporám.</p>
+          </div>
+          <div class="col">
+            <h2>Typické problémy s tiskárnami</h2>
+           <p>- nefungující podavač (separátor) papíru - nenabírá papír nebo nabírá více najednou</p> 
+<p>- z důvodu degradované gumy v součástkách podavače</p>
+<p>- z důvodu znečištění prachem z nekvalitního papíru</p>
+<p>- zaschlé hlavy u inkoustových tiskáren po delší době nečinnosti</p>
+<p>- plná „nádržka“ na odstříknutý inkoust - týká se inkoustových tiskáren s funkcí automatického čištění hlav (při intenzívním používání)</p>
+<p>- znečištěná dráha papíru (prach způsobuje mačkání, rozmazávání inkoustu apod.)</p>
+        </div>
+        <div class="col">
+         <h2>Ochranné prvky</h2>
+           <p><b>Skryté značky</b> 
+           - Skryté značky umožňují vystopovat běžně dostupné barevné tiskárny kvůli riziku zneužití na falšování různých dokladů či bankovek (funkci nelze vypnout). Barevné tiskárny tisknou značky různých podob.[1] Kopírování také znesnadňují EURion konstelace na bankovkách.</p>
+            <p><b>Čipování</b>
+            - Čipování je snaha výrobců tvořit kontrolovaný zisk prodejem doplňků a služeb, což umožňuje snížit prodejní cenu samotné tiskárny (často až dumpingovým způsobem). Jde o zařízení bránící použití neoriginálních náplní, počítadlo bránící doplnění inkoustu či toneru bez výměny originální tiskové kazety nebo počítadlo pro nucený servis po určitém počtu vytisknutých stran</p>
+        </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+        <p>&copy; 2023 SŠPU Opava, Barbora Žemličková</p>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+<script>
+    var myCarousel = document.getElementById("myCarousel");
+    myCarousel.addEventListener("slide.bs.carousel", function () {
+        var r = Math.floor(Math.random() * 256);
+        var g = Math.floor(Math.random() * 256);
+        var b = Math.floor(Math.random() * 256);
+        document
+            .querySelector(".navbar")
+            .style.setProperty(
+                "background-color",
+                `rgb(${r}, ${g}, ${b})`,
+                "important"
+            );
+    });
+</script>
+</body>
+
+</html>
